@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IDCardRW - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/IDCardRW.res" /d "NDEBUG" "E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\IDCardRW.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/IDCardRW.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\IDCardRW.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\IDCardRWDlg.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\ReadDlg.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\WriteDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/IDCardRW.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\»Ò”¢‘¥\¡∑œ∞\IDCardRW\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP139.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/IDCardRW.pdb" /machine:I386 /out:"Release/IDCardRW.exe" 
+".\Release\IDCardRW.obj"
+".\Release\IDCardRWDlg.obj"
+".\Release\ReadDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\WriteDlg.obj"
+".\Release\IDCardRW.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+IDCardRW.cpp
+IDCardRWDlg.cpp
+ReadDlg.cpp
+WriteDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+IDCardRW.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

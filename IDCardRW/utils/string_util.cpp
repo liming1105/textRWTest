@@ -42,3 +42,9 @@ std::string& string_util::to_upper(std::string &str)
 	transform(str.begin(), str.end(), str.begin(), ::toupper);
 	return str;
 }
+
+std::string& string_util::to_lower(std::string &str)
+{
+	transform(str.begin(), str.end(), str.begin(), ::tolower);
+	return str;
+}
